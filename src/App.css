@@ -1,0 +1,111 @@
+body {
+  font-size: 14px;
+  font-weight: 600;
+}
+.page {
+  background-color: #f8f5de;
+  background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
+  box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(255,210,0,0.4), inset 0 0 30px rgba(220,120,0,0.8);
+  color: rgba(0,0,0,0.7);
+  font-family: "AustralisProSwash-Italic";
+  max-width: 100vw;
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+  padding: 5em 10em 15em 5em;
+}
+.caps {
+  color: rgba(0,0,0,0.7);
+  float:left;
+  font-size: 7em;
+  line-height: 60px;
+  padding-right: 12px;
+  position:relative;
+  top:8px;
+}
+.App {
+  text-align: center;
+  background: #F8ECC2;
+  /* background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62); */
+
+
+  font-family: 'Sofia', cursive;
+
+  /* font-family: 'VT323', monospace; */
+
+
+}
+
+.App h1 {
+  color: rgba(0,0,0,0.7);
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.book h2 {
+    /* font-family: 'VT323', monospace; */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.book p, ul, li {
+    /* font-family: 'Norican', cursive; */
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book .page-message {
+  max-width: 173px;
+
+}
+.book .volume {
+  margin-bottom: 0px;
+}
+
+.book p.pages {
+  width: 500px;
+  margin-top: 0px;
+}
+    
+
+.App  span {
+  font-size: 1.2em;
+  color: rgba(0,0,0,0.7);
+  font-style: italic;
+  margin-bottom: 2em;
+  display: block;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
